@@ -1,0 +1,38 @@
+body{
+    background-color: aquamarine;
+}
+.link1{
+    position:relative;
+    left:1165px;
+    bottom:40px;
+}
+.link2{
+    position:relative;
+    left:1230px;
+    bottom:59px;
+}
+#portfolio1{
+    position:relative;
+    left:1300px;
+    bottom:77px;
+}
+#portfolio2{
+    position:relative;
+    left:1300;
+    bottom: 77px;
+}
+#portfolio3{
+    position: relative;
+    left:70px;
+    bottom:18px;
+}
+#project1{
+    width:500px;
+    height:355px;
+}
+#project2{
+    width:500px;
+}
+h2{
+    text-decoration: underline;
+}
