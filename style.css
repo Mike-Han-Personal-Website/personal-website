@@ -36,3 +36,15 @@ body{
 h2{
     text-decoration: underline;
 }
+#project3{
+    width:500px;
+}
+h3{
+    text-decoration: underline;
+    font-weight: bold;
+}
+.mainpara{
+    border-style: double;
+    border-color: black;
+    background-color: antiquewhite;
+}
