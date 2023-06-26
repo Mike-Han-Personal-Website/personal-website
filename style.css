@@ -1,5 +1,9 @@
 body{
-    background-color: aquamarine;
+    background-image: url(background.png);
+}
+h1{
+    font-weight: bold;
+    text-decoration: underline;
 }
 .link1{
     position:relative;
@@ -27,24 +31,56 @@ body{
     bottom:77px;
 }
 #project1{
-    width:500px;
-    height:355px;
+    width:430px;
+    height:305px;
 }
 #project2{
-    width:500px;
+    width:430px;
 }
 h2{
     text-decoration: underline;
 }
 #project3{
-    width:500px;
+    width:430px;
+    height:300px;
 }
 h3{
     text-decoration: underline;
     font-weight: bold;
+    color: aquamarine;
+}
+h4{
+    color:rgb(87, 175, 222);
 }
 .mainpara{
     border-style: double;
     border-color: black;
     background-color: antiquewhite;
+}
+.firstp{
+    display:flex;
+    gap:10px;
+    background-color: rgb(193, 95, 220);
+    flex-wrap: wrap;
+}
+a{
+    border:2px solid black;
+    color:rgb(0, 0, 0);
+    border-radius: 5px;;
+    background-color: beige;
+}
+a:hover{
+    background-color: rgb(237, 253, 1);
+}
+.project11{
+    border:2px solid black;
+    width: 450px;
+}
+.project21{
+    border:2px solid black;
+    width:450px;
+}
+.project31{
+    border:2px solid black;
+    width:450px;
 }
