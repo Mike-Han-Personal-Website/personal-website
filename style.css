@@ -53,9 +53,34 @@ h4{
     color:rgb(87, 175, 222);
 }
 .mainpara{
+    display: flex;
     border-style: double;
     border-color: black;
-    background-color: antiquewhite;
+    background-image: url(./pics/textBackground.jpg);
+    height:100%;
+    width:75%;
+}
+.secondpara{
+    display: flex;
+    border-style: double;
+    border-color: black;
+    background-color:bisque;
+    width: 20%;
+    position: relative;
+    bottom:80%;
+    left:20%;
+    z-index: 4;
+}
+.thirdpara{
+    display: flex;
+    border-style: double;
+    border-color: black;
+    background-color: bisque;
+    width:20%;
+    position: relative;
+    bottom:90%;
+    left:30%;
+    z-index: 2;
 }
 .firstp{
     display:flex;
@@ -87,4 +112,24 @@ a:hover{
     border:2px solid black;
     width:450px;
     background-color: rgb(250, 124, 231);
+}
+.drawcontainer{
+    display: flex;
+    background-color: rgb(229, 159, 198);
+    height:50%;
+    width: 100%;
+}
+#circle{
+    height:50px;
+    width:50px;
+    background-color: black;
+    border-radius: 50%;
+    position: relative;
+
+
+}
+@media (max-width: 700px){
+    body{
+        background-image: url(./pics/600width.jpg);
+    }
 }
